@@ -1,0 +1,42 @@
+#container{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr) ;
+
+    grid-template-rows: 300px 300px 300px;
+
+    grid-gap: 10px;
+
+    grid-template-areas: 
+    "i1 i2 i3 i4"
+    "i1 i5 i5 ."
+    "i1 . i6 i6";
+}
+#classe{
+    display: flex;
+
+    background-color: rgb(51, 71, 71);
+
+    justify-content: center;
+
+    align-items: center;
+}
+.Item2{
+    
+    grid-area: i2;
+}
+.Item1{
+    grid-area: i1;
+}
+.Item3{
+    grid-area: i3;
+}
+.Item4{
+    grid-area: i4;
+}
+.Item5{
+    grid-area: i5;
+}
+.Item6{
+    grid-area: i6;
+}

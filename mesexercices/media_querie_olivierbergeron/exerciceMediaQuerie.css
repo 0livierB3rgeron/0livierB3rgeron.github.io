@@ -1,0 +1,151 @@
+#titre{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titre1{
+    font-size: 100px;
+    color: whitesmoke;
+    
+}
+.titre2{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline; 
+    align-items: center;
+    color: whitesmoke;
+   text-decoration: underline;
+}
+#liens{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: black;
+}
+#liens > a{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: violet;
+}
+#menu{
+    flex-direction: row;
+    display: flex;
+    background-color: lightcoral;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    height: 100%;
+    
+}
+#moi{
+    display: flex;
+    background-color: teal;
+    flex-direction: column;
+    height: 1644px;
+    align-content: flex-start;
+    width: 1700px;
+    border-style: solid;
+    border-color: darkgoldenrod;
+}
+#image{
+    margin: 20px;
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    border-width: 10px;
+    border-style: double;
+    height: 300px;
+    align-content: center;
+    justify-content: center;
+    border-color: darkgoldenrod
+    
+}
+#artcile{
+    display: flex;
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+#merde{
+    display: flex;
+    background-color: blueviolet;
+    margin: 15px;
+    font-size: x-large;
+    border-style: dotted;
+    border-color: crimson;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+}
+#article2{
+    display: flex;
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+#lorem{
+    display: flex;
+    background-color: brown;
+    flex-direction: column;
+    height: 500px;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+    justify-items: center;
+}
+#soustitre2{
+    display: flex;
+    
+}
+#paragraphe2{
+    display: flex;
+    font-size: large;
+    flex-direction: column;
+    height: 1000px;
+    justify-items: center;
+    align-items: center;
+}
+#footer{
+    height: 20vh;
+    display: flex;
+    background-color:royalblue;
+    margin: none;
+}
+@media screen and (max-width: 600px) {
+    *
+    { 
+        align-content: center;
+       
+        font-size: 20px;
+    }
+    #paragraphe2
+    {
+        font-size: small;
+    }
+    #moi
+    {
+        font-size: small;
+    }
+    #merde
+    {
+        font-size: small;
+    }
+    #image
+    {
+        width: max-content;
+    }
+    #titre
+    {
+        align-items: center;
+        justify-items: center;
+    }
+}
